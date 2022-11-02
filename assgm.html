@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #333;
+            font-size:20px;
+            color:white;
+        }
+            .navbar{
+                display:grid;
+                grid-template-columns: repeat(3,1fr);
+                background-color: #222;
+                position:fixed;
+                top:0;
+            }
+            a{
+                text-decoration: none;
+                list-style:none;
+                color:white;
+            }
+            .nav{
+                    list-style:none;
+                    display: flex;
+
+            }
+            li{
+                align-self:center;
+                padding: 10px;
+            }
+            #about{
+                top:20px;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                line-height: 30px;
+                margin:15px;
+                margin-right:15px;
+                
+            }
+            .div{
+                padding-top: 25%;
+                background-color:black;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin:0px;
+                line-height: 30px;
+                    padding-left: 10px;
+            }
+            h2{
+                align-items: left;
+                text-align: left;
+                padding-bottom: 5px;
+            }
+            .div p{
+                color:grey;
+                padding-left: 0px;
+                text-align:left;
+                letter-spacing: 2px;
+            }
+            #submit{
+                background-color: orange;
+                align-items: left;
+                text-align:left;
+                margin:10px;
+                padding:5px;
+
+            }
+            .menu{
+                text-align: center;
+                padding: 10px;
+            }
+            #menu{
+                display: grid;
+                background-color: black;
+                margin:20px;
+
+            }
+            .div8{
+                display: flex;
+                margin-left:30px;
+                padding:30px;
+            }
+            .item{
+                border:2px solid black;
+                background-color: #222;
+                margin:25px;
+                padding:33px;
+                margin-left:20px;
+
+                line-height: 40px;
+            }
+            .submit1{
+                background-color: orange;
+                padding:10px;
+            }
+            .about-us{
+                margin-top:75px;
+                text-align:center;
+                color:white;
+                font-size:35px;
+            }
+            .about-us p{
+                color:orange;
+                display:inline;
+            }
+            .item:hover{
+                background-color: white;
+                color:black;
+
+            }
+        
+
+    </style>
+</head>
+<body>
+    <section class="navbar">
+        <img src="/img/logo.png">
+
+        <ul class="nav">
+            <li><a href="#about">Home</a></li>
+            <li><a href="#menu">About</a></li>
+            
+            <li><a href="">Products</a></li>
+            <li><a href="">Review</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blogs</a></li>
+        </ul>
+    </section>
+<div class="about-us">
+    <p>ABOUT</p> US
+</div>
+<section class="aboutus" id="about">
+    <img src="/img/about-img.jpeg">
+    <div class="div">
+        <h2>
+            What Makes Our COffe Special
+        </h2>
+       
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, atque pariatur? Omnis consectetur quaerat, hic doloribus debitis numquam sunt sequi voluptates suscipit temporibus<br> voluptate expedita odit tenetur et voluptas placeat.</p>
+    <input type="submit" id="submit" placeholder="Learn More" value="Learn More">
+    </div>
+
+
+</section>
+<div class="menu">
+    <h1>Menu</h1>
+    
+</div>
+<section id="menu">
+    <div class="div8">
+    <div class="item">
+        <img src="/img/menu-1.png">
+        <h4> Tasty and Healthy </h4>
+
+        <h3>$2029</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div>
+    <div class="item">
+        <img src="/img/menu-2.png">
+        <h4> Tasty and Healthy </h4>
+
+        <h3>$2000</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div>
+    <div class="item">
+        <img src="/img/menu-3.png">
+        <h4> Tasty and Healthy </h4>
+        <h3>$1000</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div>
+    <div class="item">
+        <img src="/img/menu-1.png">
+        <h4> Tasty and Healthy </h4>
+        <h3>$1087</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div>
+</div>
+    <div class="div8">
+    <div class="item">
+        <img src="/img/menu-4.png">
+        <h4> Tasty and Healthy </h4>
+
+        <h3>$1500</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div>
+    <div class="item">
+        <img src="/img/menu-5.png">
+        <h4> Tasty and Healthy </h4>
+
+        <h3>$1999</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div>
+    <div class="item">
+        <img src="/img/menu-6.png">
+        <h4> Tasty and Healthy </h4>
+
+        <h3>$1999</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div>
+    <div class="item">
+        <img src="/img/menu-4.png">
+        <h4> Tasty and Healthy </h4>
+        <h3>$1900</h3>
+        <input type="submit" value="Add to Cart " class="submit1">
+    </div></div>
+
+
+</section>
+</body>
+</html>
